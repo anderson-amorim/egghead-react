@@ -141,7 +141,6 @@ class LifecicleTest extends React.Component {
     }
     componentWillMount() {
         console.log('componentWillMount');
-        this.setState({m: 2});
     }
     render() {
         console.log('Render');
