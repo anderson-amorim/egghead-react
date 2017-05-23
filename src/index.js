@@ -5,6 +5,7 @@ import App2 from './App2';
 import App3 from './App3';
 import App4 from './App4';
 import App5 from './App5';
+import App6 from './App6';
 
 ReactDOM.render(
   <App txt="I've come to talk with you again" cat={5} />, document.getElementById('root'));
@@ -16,3 +17,5 @@ ReactDOM.render(
   <App4 />, document.getElementById('root4'));
 ReactDOM.render(
   <App5 />, document.getElementById('root5'));
+ReactDOM.render(
+  <App6 />, document.getElementById('root6'));
