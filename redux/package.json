@@ -1,14 +1,19 @@
 {
-  "name": "counter-reducer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "counterReducer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "redux",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "expect": "^1.20.2"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
