@@ -10,7 +10,7 @@ class CounterReducer {
                 return state;
         }
     }
-    
+
 }
 
 export default CounterReducer
