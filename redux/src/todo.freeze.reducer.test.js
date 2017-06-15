@@ -8,7 +8,7 @@ const toggleTodo = (todo) => {
 }
 
 it('Test toggleTodo', () => {
-    const todoBefore = {
+    const todoBefore = { 
         id: 0,
         text: 'Learn Redux',
         completed: false

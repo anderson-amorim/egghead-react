@@ -1,4 +1,5 @@
 import deepFreeze from 'deep-freeze';
+import { Map, List } from 'immutable';
 import { createStore, combineReducers } from 'redux';
 
 const todo = (state, action) => {
@@ -57,7 +58,7 @@ const todoApp = (state = {}, action) => {
 const myCombineReducers = (reducers) => {
     return (state = {}, action) => {
         return Object.keys(reducers).reduce(
-            (nextState, key)  => {
+            (nextState, key) => {
                 nextState[key] = reducers[key](
                     state[key],
                     action
